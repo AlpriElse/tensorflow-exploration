@@ -55,7 +55,7 @@ def logicalOR(param1, param2):
     output = sess.run(step(tf.matmul([[temp[param1], temp[param2], bias]], w)))
     return output[0][0] > 0
 
-print(logicalOR(True, True))
-print(logicalOR(True, False))
-print(logicalOR(False, True))
-print(logicalOR(False, False))
+print(logicalOR(True, True)) # Expected: True
+print(logicalOR(True, False)) # Expected: True
+print(logicalOR(False, True)) # Expected: True
+print(logicalOR(False, False)) # Expected: False

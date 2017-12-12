@@ -91,7 +91,7 @@ def classifyNumber(num):
     else:
         return "Negative"
 
-print(classifyNumber(-100))
-print(classifyNumber(-1))
-print(classifyNumber(-2))
-print(classifyNumber(1.0))
+print(classifyNumber(-100)) # Expected: Negative
+print(classifyNumber(-1)) # Expected: Negative
+print(classifyNumber(-2)) # Expected: Negative
+print(classifyNumber(1.0)) # Expected: Positive
